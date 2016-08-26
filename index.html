@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Slick-Pop-Hammer</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+  <!-- slick from https://github.com/kenwheeler/slick-->
+  <link rel="stylesheet" type="text/css" href="./slick/slick.css">
+  <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
+  <!-- zoom  from https://github.com/gurde/ZOOM-->
+  <link rel="stylesheet" type="text/css" href="./css/zoom.css">
+
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+  
+</head>
+<body>
+  <div class="slick-container">
+     <section class="slick-thumbnail slider">
+      <div>
+        <img src="img/1.jpg">
+      </div>
+      <div>
+        <img src="img/2.jpg">
+      </div>
+      <div>
+        <img src="img/3.jpg">
+      </div>
+      <div>
+        <img src="img/4.jpg">
+      </div>
+      <div>
+        <img src="img/5.jpg">
+      </div>
+      <div>
+        <img src="img/6.jpg">
+      </div>
+    </section>
+
+    <section id="hammer_area" class="slick-regular slider gallery">
+       <div>
+        <a href="img/1.jpg"><img src="img/1.jpg"></a>
+      </div>
+      <div>
+       <a href="img/2.jpg"> <img src="img/2.jpg"></a>
+      </div>
+      <div>
+        <a href="img/3.jpg"><img src="img/3.jpg"></a>
+      </div>
+      <div>
+        <a href="img/4.jpg"><img    src="img/4.jpg"></a>
+      </div>
+      <div>
+        <a href="img/5.jpg"><img src="img/5.jpg"></a>
+      </div>
+      <div>
+        <a href="img/6.jpg"><img src="img/6.jpg"></a>
+      </div>
+    </section>
+   
+  </div>
+  
+  <script src="./slick/jquery-1.12.3.min.js" type="text/javascript"></script>
+  <script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
+  <script type="text/javascript">
+  /** reference http://kenwheeler.github.io/slick/ **/
+    $(document).on('ready', function() {
+      $(".slick-regular").slick({
+        infinite: false,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        swipe: true,
+        prevArrow: false,
+        nextArrow: false,
+        dots: true,
+        // fade: true,
+        // variableWidth: true,
+        // mobileFirst: true,
+        asNavFor: ".slick-thumbnail",
+         responsive: [{
+
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 1,
+            }
+
+          }, {
+
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 1,
+              dots: true,
+              fade: false
+            }
+
+          }, {
+
+            breakpoint: 300,
+            settings: "unslick" // destroys slick
+
+        }]
+
+      });
+      $(".slick-thumbnail").slick({
+        infinite: false,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        verticalSwiping: true,
+        vertical: true,
+        asNavFor: ".slick-regular",
+       
+
+      });
+
+      /** To be optimized **/
+      $(".slick-thumbnail img").each(function(index){
+        // var length = $(".slick-thumbnail img").length;
+        // console.log(length);
+        $(this).click(function(){
+          // var half = (length)/2;
+
+          // if(index < half){
+          //   $(".thumbnail").slick('slickPrev');
+          // }
+          // console.log(index);
+          $(".slick-regular").slick("slickGoTo",index);
+        })
+      })
+      
+    });
+    
+  </script>
+<script src="./js/hammer.min.js"></script>
+<script src="./js/slick-pop-hammer.js"></script>
+<script src="./js/zoom.js"></script>
+
+</body>
+</html>
