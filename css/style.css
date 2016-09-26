@@ -1,3 +1,279 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url('../fonts/icomoon.ttf?u38szs') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-uni2192:before {
+  content: "\2192";
+}
+.icon-uni2190:before {
+  content: "\2190";
+}
+.icon-uni2022:before {
+  content: "\2022";
+}
+.icon-uni61:before {
+  content: "\61";
+}
+.icon-uniF000:before {
+  content: "\f000";
+}
+.icon-uniF001:before {
+  content: "\f001";
+}
+.icon-uniF002:before {
+  content: "\f002";
+}
+.icon-uniF003:before {
+  content: "\f003";
+}
+.icon-uniF004:before {
+  content: "\f004";
+}
+.icon-uniF005:before {
+  content: "\f005";
+}
+.icon-uniF006:before {
+  content: "\f006";
+}
+.icon-uniF007:before {
+  content: "\f007";
+}
+.icon-uniF008:before {
+  content: "\f008";
+}
+.icon-uniF009:before {
+  content: "\f009";
+}
+.icon-uniF00A:before {
+  content: "\f00a";
+}
+.icon-uniF00B:before {
+  content: "\f00b";
+}
+.icon-uniF00C:before {
+  content: "\f00c";
+}
+.icon-uniF00D:before {
+  content: "\f00d";
+}
+.icon-uniF00E:before {
+  content: "\f00e";
+}
+.icon-uniF010:before {
+  content: "\f010";
+}
+.icon-uniF011:before {
+  content: "\f011";
+}
+.icon-uniF013:before {
+  content: "\f013";
+}
+.icon-uniF014:before {
+  content: "\f014";
+}
+.icon-uniF015:before {
+  content: "\f015";
+}
+.icon-uniF016:before {
+  content: "\f016";
+}
+.icon-uniF017:before {
+  content: "\f017";
+}
+.icon-uniF019:before {
+  content: "\f019";
+}
+.icon-uniF01D:before {
+  content: "\f01d";
+}
+.icon-uniF01E:before {
+  content: "\f01e";
+}
+.icon-uniF023:before {
+  content: "\f023";
+}
+.icon-uniF027:before {
+  content: "\f027";
+}
+.icon-uniF028:before {
+  content: "\f028";
+}
+.icon-uniF030:before {
+  content: "\f030";
+}
+.icon-uniF031:before {
+  content: "\f031";
+}
+.icon-uniF032:before {
+  content: "\f032";
+}
+.icon-uniF03D:before {
+  content: "\f03d";
+}
+.icon-uniF03E:before {
+  content: "\f03e";
+}
+.icon-uniF040:before {
+  content: "\f040";
+}
+.icon-uniF041:before {
+  content: "\f041";
+}
+.icon-uniF044:before {
+  content: "\f044";
+}
+.icon-uniF046:before {
+  content: "\f046";
+}
+.icon-uniF053:before {
+  content: "\3c";
+}
+.icon-uniF054:before {
+  content: "\3e";
+}
+.icon-uniF060:before {
+  content: "\f060";
+}
+.icon-uniF061:before {
+  content: "\f061";
+}
+.icon-uniF067:before {
+  content: "\f067";
+}
+.icon-uniF068:before {
+  content: "\f068";
+}
+.icon-uniF073:before {
+  content: "\f073";
+}
+.icon-uniF077:before {
+  content: "\f077";
+}
+.icon-uniF078:before {
+  content: "\f078";
+}
+.icon-uniF07A:before {
+  content: "\f07a";
+}
+.icon-uniF07B:before {
+  content: "\f07b";
+}
+.icon-uniF07C:before {
+  content: "\f07c";
+}
+.icon-uniF087:before {
+  content: "\f087";
+}
+.icon-uniF088:before {
+  content: "\f088";
+}
+.icon-uniF08A:before {
+  content: "\f08a";
+}
+.icon-uniF09B:before {
+  content: "\f09b";
+}
+.icon-uniF0D7:before {
+  content: "\f0d7";
+}
+.icon-uniF0D8:before {
+  content: "\f0d8";
+}
+.icon-uniF0DC:before {
+  content: "\f0dc";
+}
+.icon-uniF0E4:before {
+  content: "\f0e4";
+}
+.icon-uniF104:before {
+  content: "\f104";
+}
+.icon-uniF105:before {
+  content: "\f105";
+}
+.icon-uniF106:before {
+  content: "\f106";
+}
+.icon-uniF107:before {
+  content: "\f107";
+}
+.icon-uniF108:before {
+  content: "\f108";
+}
+.icon-uniF109:before {
+  content: "\f109";
+}
+.icon-uniF10A:before {
+  content: "\f10a";
+}
+.icon-uniF10B:before {
+  content: "\f10b";
+}
+.icon-uniF177:before {
+  content: "\f177";
+}
+.icon-uniF178:before {
+  content: "\f178";
+}
+.icon-uniF179:before {
+  content: "\f179";
+}
+.icon-uniF17B:before {
+  content: "\f17b";
+}
+.icon-uniF1B0:before {
+  content: "\f1b0";
+}
+.icon-uniF1B9:before {
+  content: "\f1b9";
+}
+.icon-uniF1BA:before {
+  content: "\f1ba";
+}
+.icon-uniF1D6:before {
+  content: "\f1d6";
+}
+.icon-uniF1D7:before {
+  content: "\f1d7";
+}
+.icon-uniF1D8:before {
+  content: "\f1d8";
+}
+.icon-uniF207:before {
+  content: "\f207";
+}
+.icon-uniF221:before {
+  content: "\f221";
+}
+.icon-uniF222:before {
+  content: "\f222";
+}
+.icon-airplane:before {
+  content: "\e900";
+}
+.icon-embed2:before {
+  content: "\e901";
+}
+
+
 /** reset **/
 
 * {
@@ -83,22 +359,42 @@ button, input, select, textarea {
   width: 100%;
 }
 
-.slick-prev {
+.slick-thumbnail .slick-prev {
   left: 46%;
   top: -14px;
   transform: rotate(90deg);
 }
-.slick-next {
+.slick-thumbnail .slick-next {
   left: 46%;
   top: 99%;
   transform: rotate(90deg);
 }
+.slick-regular .slick-prev, .slick-regular .slick-next {
+  font-size: 18px;
+}
+.slick-regular {
+  padding: 0 20px;
+}
+.slick-regular .slick-prev:before {
+  font-family: 'icomoon';
+  content: "\3c";
+}
+.slick-regular .slick-next:before {
+  font-family: 'icomoon';
+  content: "\3e";
+}
 .slick-prev:before,
 .slick-next:before {
-    color: black;
+  color: black;
+}
+.slick-regular .slick-prev:before, .slick-regular .slick-next:before {
+  color: #fff;
 }
 .slick-dots li button:before { font-size:8px; }
 .slick-dots li { margin:0 2px; }
+.slick-regular .slick-slide {
+  margin: 0 0;
+}
 /* responsive */
 @media screen and (max-width:1000px){
 	.slick-container {
